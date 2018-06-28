@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BritamMedical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Medical Cover"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#f00000"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Medical Cover Plan is a protection cover designed to provide an extra layer of financial security in the event that one is diagnosed with Critical illness."
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About the Medical Cover"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Medical Cover Plan covers a comprehensive list of illnesses namely Heart Attack, Stroke, Cancer, Kidney failure, Coronary artery bypasses surgery, Aortic Surgery, Heart Valve Surgery, Major organ transplant, Paraplegia, Coma, Blindness, Multiple Sclerosis, Accidental Brain Damage, Motor Neuron Disease, Dementia (including Alzheimer’s and Parkinson’s disease)"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The premiums are affordable and are payable in a flexible way; monthly, quarterly, semi-annually or annually."
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Various premium payment options are available e.g. Employer salary check-off, direct debit, personal cheques or mobile money transfer."
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The amount of premium one pays will depend on age and the amount of the sum assured ( that is a chosen benefit)."
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Insurance will pay a lump sum amount equal to the sum assured in the event one is diagnosed with any of the defined critical illnesses."
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This policy gives you access to personalised service by the insurance."
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Why you need the Medical Cover?"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Critical illnesses have recently become prevalent."
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Many times, Critical Illnesses hit the family’s bread winners hence affecting families financially and disabling the lifestyle a unit is used to."
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- However, more people are now surviving critical illnesses due to advanced medical science and improved hospital care. The outcome of a major health crisis is more likely to be survival than death.This means that more people need financial support during recovery and thus the reason you need the Britam Critical Illness Plan."
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Sufficient protection against the financial shocks brought about by critical illnesses requires more than a usual life insurance cover."
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apply"
+                android:id="@+id/btApplyMedical"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

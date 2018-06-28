@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BritamMedicalRegistrationFee">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="USER INFORMATION"
+               android:textAppearance="?android:attr/textAppearanceLarge"
+               android:textAlignment="center"/>
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="16dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                   android:layout_margin="8dp">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:textAppearance="?android:attr/textAppearanceLarge"
+                           android:text="Name: "/>
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:textAppearance="?android:attr/textAppearanceMedium"
+                           android:id="@+id/tvInsureeName"
+                           android:text="Insuree "/>
+                   </LinearLayout>
+                   <View
+                       android:layout_width="match_parent"
+                       android:layout_height="2dp"
+                       android:background="#D3D3D3"
+                       android:layout_marginTop="8dp"
+                       android:layout_marginBottom="8dp"
+                       />
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:textAppearance="?android:attr/textAppearanceLarge"
+                           android:text="ID Number: "/>
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:textAppearance="?android:attr/textAppearanceMedium"
+                           android:id="@+id/tvInsureeID"
+                           android:text="Insuree "/>
+                   </LinearLayout>
+                   <View
+                       android:layout_width="match_parent"
+                       android:layout_height="2dp"
+                       android:background="#D3D3D3"
+                       android:layout_marginTop="8dp"
+                       android:layout_marginBottom="8dp"
+                       />
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:textAppearance="?android:attr/textAppearanceLarge"
+                           android:text="Gender: "/>
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:textAppearance="?android:attr/textAppearanceMedium"
+                           android:id="@+id/tvInsureeGender"
+                           android:text="Male "/>
+                   </LinearLayout>
+                   <View
+                       android:layout_width="match_parent"
+                       android:layout_height="2dp"
+                       android:background="#D3D3D3"
+                       android:layout_marginTop="8dp"
+                       android:layout_marginBottom="8dp"
+                       />
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:textAppearance="?android:attr/textAppearanceLarge"
+                           android:text="Date of Birth: "/>
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:textAppearance="?android:attr/textAppearanceMedium"
+                           android:id="@+id/tvInsureeDOB"
+                           android:text="01/01/1990"/>
+                   </LinearLayout>
+                   <View
+                       android:layout_width="match_parent"
+                       android:layout_height="2dp"
+                       android:background="#D3D3D3"
+                       android:layout_marginTop="8dp"
+                       android:layout_marginBottom="8dp"
+                       />
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:textAppearance="?android:attr/textAppearanceLarge"
+                           android:text="Occupation: "/>
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:textAppearance="?android:attr/textAppearanceMedium"
+                           android:id="@+id/tvInsureeOccupation"
+                           android:text="Self Employed"/>
+                   </LinearLayout>
+                   <View
+                       android:layout_width="match_parent"
+                       android:layout_height="2dp"
+                       android:background="#D3D3D3"
+                       android:layout_marginTop="8dp"
+                       android:layout_marginBottom="8dp"
+                       />
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:textAppearance="?android:attr/textAppearanceLarge"
+                           android:text="Marital Status: "/>
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:textAppearance="?android:attr/textAppearanceMedium"
+                           android:id="@+id/tvInsureeMarital"
+                           android:text="Single"/>
+                   </LinearLayout>
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="PAYMENT INFORMATION"
+               android:textAppearance="?android:attr/textAppearanceLarge"
+               android:textAlignment="center"/>
+           <android.support.v7.widget.CardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="16dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical"
+                   android:layout_margin="8dp">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:textAppearance="?android:attr/textAppearanceLarge"
+                           android:text="Company Name: "/>
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:textAppearance="?android:attr/textAppearanceMedium"
+                           android:id="@+id/tvCompany"
+                           android:text="Britam "/>
+                   </LinearLayout>
+                   <View
+                       android:layout_width="match_parent"
+                       android:layout_height="2dp"
+                       android:background="#D3D3D3"
+                       android:layout_marginTop="8dp"
+                       android:layout_marginBottom="8dp"
+                       />
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:textAppearance="?android:attr/textAppearanceLarge"
+                           android:text="Insurance Type: "/>
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:textAppearance="?android:attr/textAppearanceMedium"
+                           android:text="Medical "/>
+                   </LinearLayout>
+                   <View
+                       android:layout_width="match_parent"
+                       android:layout_height="2dp"
+                       android:background="#D3D3D3"
+                       android:layout_marginTop="8dp"
+                       android:layout_marginBottom="8dp"
+                       />
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:textAppearance="?android:attr/textAppearanceLarge"
+                           android:text="Amount to Pay: "/>
+                       <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:layout_weight="1"
+                           android:textAppearance="?android:attr/textAppearanceMedium"
+                           android:text="sh 1000 "/>
+                   </LinearLayout>
+               </LinearLayout>
+           </android.support.v7.widget.CardView>
+
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Make Payment"
+               android:id="@+id/btMakeMedicalPayment"
+               android:background="@drawable/submit_btn"
+               android:textColor="#fff"
+               android:layout_margin="32dp"/>
+       </LinearLayout>
+   </ScrollView>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

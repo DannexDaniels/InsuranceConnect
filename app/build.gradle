@@ -1,0 +1,84 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.dannextech.apps.insuranceconnect"
+        minSdkVersion 18
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    /*buildTypes.each {
+        it.buildConfigField 'String', 'CONSUMER_KEY', 'CONSUMER_KEY'
+        it.buildConfigField 'String', 'CONSUMER_SECRET', 'CONSUMER_SECRET'
+    }*/
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    /*mpesa dependancies
+    implementation deps.support.appcompat
+    implementation deps.support.design
+    implementation deps.support.support
+    implementation deps.support.multidex
+    implementation deps.support.cardview
+    implementation deps.support.recyclerview
+    implementation deps.support.constraintLayout
+    //Butterknife - Bind Views
+    implementation deps.butterknife.core
+    annotationProcessor deps.butterknife.compiler
+    //Log - Replace the Android Log Class
+    implementation deps.timber
+    //Firebase
+    implementation deps.firebase
+    //My Lib -> Monitor Internet Connectivity
+    implementation deps.networkmanager
+    //Glide - Handle Images
+    implementation deps.glide.core
+    annotationProcessor deps.glide.compiler
+    //Sweet Alert Replacement
+    implementation deps.sweetalert
+    //Retrofit - Network Client
+    implementation deps.retrofit.core
+    implementation deps.retrofit.gsonConverter
+    //OKHTTP3
+    implementation deps.okhttp3.core
+    implementation deps.okhttp3.interceptor
+    //GSON
+    implementation deps.gson
+    //OKIO
+    implementation deps.okio*/
+
+    //my dependancies
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation 'com.android.support:design:27.1.0'
+    implementation 'com.android.support:cardview-v7:27.1.0'
+    implementation 'com.android.support:recyclerview-v7:27.1.0'
+    implementation 'com.android.support:support-v4:27.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    /*androidTestImplementation 'com.android.support.test.espresso:espresso-contrib:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+        exclude group: 'com.android.support', module: 'support-v4'
+        exclude group: 'com.android.support', module: 'design'
+        exclude group: 'com.android.support', module: 'recyclerview-v7'
+    }*/
+}
+//apply plugin: 'com.google.gms.google-services'
+
